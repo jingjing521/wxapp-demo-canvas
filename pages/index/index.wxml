@@ -1,0 +1,14 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="canvas_aera">
+    <canvas canvas-id="myCanvas" class="myCanvas" disable-scroll="false" bindtouchstart="touchStart" bindtouchmove="touchMove" />
+  </view>
+  <view class="canvas_tools">
+    <view class="tool tool1" bindtap="penSelect" data-param="5"></view>
+    <view class="tool tool2" bindtap="penSelect" data-param="15"></view>
+    <view class="tool tool3" bindtap="colorSelect" data-param="#cc0033"></view>
+    <view class="tool tool4" bindtap="colorSelect" data-param="#ff9900"></view>
+    <view class="tool tool5" bindtap="colorSelect" data-param="#f8f8f8"></view>
+  </view>
+</view>
